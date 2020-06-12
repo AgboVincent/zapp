@@ -1,0 +1,131 @@
+.state{
+    margin-left: 15px;
+        background-color:white;
+        background-image: url("C:\Users\DELL-PC\myyapp\src\web_xd\Rectangle 7.png");
+        background-size: cover;
+            background-position-x: center;
+            background-position-y: cover ;
+            backface-visibility: hidden;
+            justify-content: center;
+        
+        height:30px;
+        width:150px;
+        margin-top: 15px;
+
+}
+
+
+.plang{
+    margin-left: 15px;
+    background-color:white;
+    height:30px;
+    width:150px;
+    background-image: url("C:\Users\DELL-PC\myyapp\src\web_xd\Rectangle 7.png");
+        background-size: cover;
+            background-position-x: center;
+            background-position-y: cover ;
+            backface-visibility: hidden;
+            justify-content: center;
+        
+    margin-top: 15px;
+
+}
+.edulevel{
+    margin-left: 95px;
+    background-color:white;
+    background-image: url("C:\Users\DELL-PC\myyapp\src\web_xd\Rectangle 7.png");
+        background-size: cover;
+            background-position-x: center;
+            background-position-y: cover ;
+            backface-visibility: hidden;
+            justify-content: center;
+        
+    height:30px;
+    width:150px;
+    margin-top: 15px;
+}
+.age{
+     margin-left:  95px;
+        background-color:white;
+        background-image: url("C:\Users\DELL-PC\myyapp\src\web_xd\Rectangle 7.png");
+        background-size: cover;
+            background-position-x: center;
+            background-position-y: cover ;
+            backface-visibility: hidden;
+            justify-content: center;
+        height:30px;
+        width:150px;
+        margin-top: 15px;
+
+}
+.register{
+    top: 50%;
+    display: flow-root;
+    
+    background-image: url("C:\Users\DELL-PC\myyapp\src\web_xd\Web 1920 – 1.png");
+    background-size: cover;
+    background-position-x: cover;
+    background-position-y: center ;
+    justify-content: center;
+    position: absolute;
+    height: 60vh;
+    width: 59vh;
+    align-self: center;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    }
+
+    .name{
+       
+      
+        
+    }
+    .firstname{
+      
+        float: left;
+            margin-left: 15px;
+            /* background-image:url("C:\Users\DELL-PC\myyapp\src\web_xd\Rectangle 2.png") ; */
+            height:30px;
+            width:150px;
+            background-size: cover;
+            background-position-x: center;
+            background-position-y: cover ;
+            backface-visibility: hidden;
+            justify-content: center;
+            margin-top: 15px;
+            
+          
+    }
+    ::placeholder{
+        color: black;
+    }
+    .lastname{
+        margin-top: 15px;
+        float: right;
+        /* background-image:url("C:\Users\DELL-PC\myyapp\src\web_xd\Rectangle 2.png") ; */
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: cover ;
+        justify-content: center;
+        background-clip: border-box;
+        margin-right: 17px;
+        background-color:white;
+        height:30px;
+        width:150px;
+    }
+    .emailadd{
+        margin-top: 15px;
+        margin-left: 15px;
+        /* background-image: url("C:\Users\DELL-PC\myyapp\src\web_xd\Rectangle 4.png"); */
+        background-color:white;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: cover ;
+        justify-content: center;
+        height:30px;
+        width:400px;
+    }
+   ::placeholder{
+       color: black;
+   }

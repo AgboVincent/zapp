@@ -1,0 +1,30 @@
+.objective{
+    justify-content: center;
+
+    background-color:white;
+    justify-content: center;
+    align-self: center;
+    background-size: auto;
+    height: 80vh;
+    width: 100vh;
+  
+    right: 20%;
+    left: 20%;
+
+    position: absolute;
+    margin-top: 10px;
+    }
+
+    .hd{
+
+       margin-left: 600px; 
+        justify-content: center;
+    }
+    .btnview{
+        background-color:red;
+        height:30px;
+        width:450px;
+        margin-top: 10px;
+        margin-left: 150px;
+
+    }

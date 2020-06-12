@@ -1,1 +1,145 @@
 /* You can add global styles to this file, and also import other style files */
+
+     .center  {
+    margin: 0;
+    top: 50%;
+    display: flow-root;
+    background-color:rgb(10, 143, 81);
+    background-size: auto;
+    justify-content: center;
+    position: absolute;
+    height: 40vh;
+    width: 58vh;
+    align-self: center;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    }  
+    .info {
+        margin-left: 10px;
+        height:30px;
+        background-color: purple;
+        width:400px;
+        margin-top: 10px;
+    }
+    .email {
+        margin-left: 10px;
+        background-color:white;
+        /* background-image: url("src\web_xd\Rectangle 4.png"); */
+        background-color:white;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: cover ;
+        justify-content: center;
+       
+        height:30px;
+        width:400px;
+
+
+    }
+    ::placeholder{
+        color: black;
+    }
+    .password {
+        margin-left: 10px;
+        background-color:white;
+        /* background-image: url("src\web_xd\Rectangle 4.png"); */
+        
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: cover ;
+        justify-content: center;
+       
+        height:30px;
+        width:400px;
+        margin-top: 15px;
+      
+    }
+
+    .ch{
+        margin-left: 20px;
+        margin-right: 10px;
+
+    }
+    .router{
+    margin-top: 30px;
+    top: 50%;
+    display: flex;
+    background-size: auto;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSALXIP6boA-JWzk5pTvpyL4doVZJ_Z_HHYmqvmLm_5T0RhxtBr");
+    justify-content: center;
+    position: absolute;
+    height: 60vh;
+    width: 60vh;
+    align-self: center;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    }
+
+    .login{
+        margin-right: 50px;
+        margin-top: 200px;
+        background-color:red;
+        height:40px;
+        width:100px;
+
+    }
+    .admin{
+        
+        background-color:greenyellow;
+        height:40px;
+        width:100px;
+        margin-top: 200px;
+        text-decoration-color: cornsilk;
+    }
+    .hd{
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+    .not{
+        margin-left: 10px;
+    
+    }
+    .hh{
+        margin-left: 150px;
+    
+    }
+    .passwordd{
+        margin-top: 15px;
+        margin-left: 15px;
+        background-color:white;
+        /* background-image: url(""); */
+        background-color:white;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: cover ;
+        justify-content: center;
+        height:30px;
+        width:400px;
+    }
+    .cpassword{
+        margin-left: 15px;
+        background-color:white;
+        height:30px;
+        width:400px;
+        /* background-image: url("src\web_xd\Rectangle 4.png"); */
+        background-color:white;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: cover ;
+        justify-content: center;
+        margin-top: 15px;
+
+    }
+    .rbtn{
+        margin-left: 15px;
+        background-color:red;
+        height:30px;
+        width:400px;
+        margin-top: 15px;
+
+    }
+
+    
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

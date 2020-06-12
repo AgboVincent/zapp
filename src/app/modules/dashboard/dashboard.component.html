@@ -1,0 +1,70 @@
+<div>
+   <app-widget-area></app-widget-area>
+</div>
+
+<br>
+
+<mat-divider></mat-divider>
+
+<br>
+
+<div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px"  class="stats-cards">
+    <mat-card fxFlex= "25">
+        <app-widget-card label="Excellence "><img src="https://byteworks.com.ng/images/excellence-icon.png" ></app-widget-card>
+    </mat-card>
+    <mat-card fxFlex= "25">
+        <app-widget-card label="Commitment" ><img src="https://byteworks.com.ng/images/commitment-icon.png" ></app-widget-card>
+    </mat-card>
+    <mat-card fxFlex= "25">
+        <app-widget-card label="Innovation" ><img src="https://byteworks.com.ng/images/innovation-icon.png" ></app-widget-card>
+     </mat-card>
+    <mat-card fxFlex= "25">
+        <app-widget-card label="Integrity" ><img src="https://byteworks.com.ng/images/integrity-icon.png" > </app-widget-card>
+     </mat-card>
+    
+</div>
+
+<br>
+
+<mat-divider></mat-divider>
+
+<br>
+<div> Workers Data  Table</div>
+<div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px">
+    <div fxFlex="60">
+            <div class="mat-elevation-z8">
+                    <table mat-table [dataSource]="dataSource">
+                  
+                      <!-- Position Column -->
+                      <ng-container matColumnDef="position">
+                        <th mat-header-cell *matHeaderCellDef> No. </th>
+                        <td mat-cell *matCellDef="let element"> {{element.position}} </td>
+                      </ng-container>
+                  
+                      <!-- Name Column -->
+                      <ng-container matColumnDef="name">
+                        <th mat-header-cell *matHeaderCellDef> Name </th>
+                        <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+                      </ng-container>
+                  
+                      <!-- Weight Column -->
+                      <ng-container matColumnDef="weight">
+                        <th mat-header-cell *matHeaderCellDef> Age </th>
+                        <td mat-cell *matCellDef="let element"> {{element.age}} </td>
+                      </ng-container>
+                  
+                      <!-- Symbol Column -->
+                      <ng-container matColumnDef="symbol">
+                        <th mat-header-cell *matHeaderCellDef> State </th>
+                        <td mat-cell *matCellDef="let element"> {{element.state}} </td>
+                      </ng-container>
+                  
+                      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                    </table>
+                  
+                    <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+                  </div>
+    </div>
+    <!-- <div fxFlex=40>Pie Chart</div> -->
+</div>
