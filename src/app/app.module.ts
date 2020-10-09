@@ -16,7 +16,7 @@ import { HomeComponent } from './home/home.component';
 import { from } from 'rxjs';
 import { ObjectiveComponent } from './objective/objective.component';
 import { KeyResultComponent } from './key-result/key-result.component';
-import { MemberComponent } from './member/member.component';
+//import { MemberComponent } from './member/member.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 //import { MatButtonModule } from '@angular/material/button';
@@ -41,7 +41,7 @@ import { CardComponent } from './shared/widgets/card/card.component';
     HomeComponent,
     ObjectiveComponent,
     KeyResultComponent,
-    MemberComponent,
+  //  MemberComponent,
     DashboardComponent,
     DefaultComponent,
     CardComponent,
