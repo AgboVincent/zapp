@@ -19,7 +19,7 @@ import { KeyResultComponent } from './key-result/key-result.component';
 import { MemberComponent } from './member/member.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { MatButtonModule } from '@angular/material/button';
+//import { MatButtonModule } from '@angular/material/button';
 import { DefaultModule } from './layouts/default/default.module';
 import { DashboardComponent } from './modules/dashboard/dashboard.component';
 import { DefaultComponent } from './layouts/default/default.component';
@@ -60,7 +60,7 @@ import { CardComponent } from './shared/widgets/card/card.component';
   imports: [
     BrowserModule,
     HttpClientModule,
-    MatButtonModule,
+   // MatButtonModule,
     CheckboxModule,
     CollapseModule,
     MaterialModule,
@@ -81,47 +81,56 @@ import { CardComponent } from './shared/widgets/card/card.component';
     MatTableModule,
     RouterModule.forRoot([
       
-      {
-        path: 'login',
-        component:LoginComponent
-      },
-      // {
-      //    path: 'default',
-      //  component:DefaultComponent
-      //   },
-      {
-        path: '',
-        component: HomeComponent
-      },
-      {
-        path:'objective',
-        component: ObjectiveComponent
-      },
-      {
-        path: 'member',
-        component: MemberComponent
-       },
-       {
-        path: 'keyResult',
-        component: KeyResultComponent
-      },
+  //     {
+  //       path: 'login',
+  //       component:LoginComponent
+  //     },
+  //     // {
+  //     //    path: 'default',
+  //     //  component:DefaultComponent
+  //     //   },
+  //     {
+  //       path: '',
+  //       component: HomeComponent
+  //     },
+  //     {
+  //       path:'objective',
+  //       component: ObjectiveComponent
+  //     },
+  //     {
+  //       path: 'member',
+  //       component: MemberComponent
+  //      },
+  //      {
+  //       path: 'keyResult',
+  //       component: KeyResultComponent
+  //     },
       
-    {path:'default',
-    component:DefaultComponent,
-    children:[{
-        path: '',
-        component:DashboardComponent
-    }]
-  },
+  //   {path:'default',
+  //   component:DefaultComponent,
+  //   children:[{
+  //       path: '',
+  //       component:DashboardComponent
+  //   }]
+  // },
       
-    {
-      path:'posts',
-    component:DefaultComponent,
-    children:[{
-        path: '',
-        component:PostsComponent
-    }]
-  }
+  //   {
+  //     path:'posts',
+  //   component:DefaultComponent,
+  //   children:[{
+  //       path: '',
+  //       component:PostsComponent
+  //   }]
+  // },
+  {
+    path:'',
+  component:DefaultComponent,
+  children:[{
+      path: '',
+      component:PostsComponent
+  }]
+}
+
 
   
      

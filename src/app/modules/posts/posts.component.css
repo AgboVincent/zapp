@@ -1,4 +1,4 @@
-.objective{
+/* .objective{
     height: 70px;
     width: 500px;
 
@@ -28,4 +28,12 @@
     margin-top: 10px;
     text-decoration-style: solid;
     text-decoration-color: palevioletred;
+} */
+.teach{
+    height: 400px;
+    width: 400px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+
+    
 }
